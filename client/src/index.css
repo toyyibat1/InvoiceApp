@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Tajawal:wght@400;800&display=swap");
+
+body {
+  font-family: "Tajawal", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f1f1f1;
+}
+
+label {
+  margin-bottom: 0.4rem;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: 112827
+}
+
+input,textarea {
+  background-color: #f1f1f1;
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+  margin-bottom: 0.8rem;
+  color: #383838;
+  font-weight: 500;
+}
+
+button{
+  user-select: none;
+}
+
+.footer li {
+  margin: 0.5rem 0.2rem;
+}
+
+.send__modal {
+  background-color: hsl(0, 0%, 95%, 90%);
+  width: 30%;
+  border-radius: 5px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  z-index: 999999;
+  transform: translate(-50%, -50%);
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
